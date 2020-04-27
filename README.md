@@ -1,8 +1,8 @@
 # listsearch
 
 ```
-//pug
-script(src="https://gnjo.github.io/_g/_g.js?repo=minire")
+//pug g.js 
+script(src="https://gnjo.github.io/_g/g.js?repo=minire")
 
 let img= new Image()
 img.src=_g('xyz.png')
