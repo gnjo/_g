@@ -100,7 +100,8 @@ v0.1
   list=d;
   let nameary=list.map(d=>d.name)
   console.log(nameary)
+  root._glist=list
  })
  root._g=_g
- root._glist=list //
+ //root._glist=list //
 })(this); 
