@@ -38,7 +38,7 @@ v0.1
   return images;
  })}
  function getrepo(){
-  return fn.qa('script').filter(d=>/_g\.js/.test(d.src)).map(d=>d.src.split('=').pop()).pop()
+  return fn.qa('script').filter(d=>/g\.js/.test(d.src)).map(d=>d.src.split('=').pop()).pop()
  }
 
  async function getfiles(user,token,repo,max){
